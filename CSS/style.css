@@ -242,18 +242,25 @@ border: 2px solid var(--color-heading);
 /*Card*/
 .card{
     border-radius: 7px;
-    box-shadow:  0 0 20px 10px #f3f3f3;
+    box-shadow: 0  0  20px   10px  #f3f3f3;
     overflow: hidden;
 }
-.card__header,
-.card__body{
+.card__body,
+.card__header{
     padding: 2rem 3rem;
 }
-.card--primary .card__header {
+.card--primary  .card__header{
     background: var(--color-primary);
     color: #fff;
+    text-align: center;
 }
-.card--secondary .card__header {
+.card--secondary  .card__header{
     background: var(--color-secondary);
     color: #fff;
+    text-align: center;
+}
+.card--heading  .card__header{
+    background: var(--color-heading);
+    color: #fff;
+    text-align: center;
 }
